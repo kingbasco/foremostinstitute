@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^foremostlegacyinstitute\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.foremostlegacyinstitute\.com$
+RewriteRule ^foremostlegacyinstitute\.com$ "https\:\/\/foremostlegacyinstitute\.com\/" [R=301,L]
+
